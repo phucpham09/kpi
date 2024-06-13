@@ -2,11 +2,11 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://EduKpi.com",
+  "homepage": "https://phucpham09.github.io/kpi_tracker",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack/webpack.config.js --env env=development --open",
     "build": "webpack --config webpack/webpack.config.js --env env=production"
